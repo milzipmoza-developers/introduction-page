@@ -1,25 +1,12 @@
 <template>
-  <section class="container">
-    <div>
+  <full-page :options="options">
+    <div class="section">
       <app-logo/>
-      <h1 class="title">
-        milzipmoza-developers-introduction
-      </h1>
-      <h2 class="subtitle">
-        for github page
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
-      </div>
     </div>
-  </section>
+    <div class="section">
+      Second section ...
+    </div>
+  </full-page>
 </template>
 
 <script>
@@ -28,7 +15,15 @@ import AppLogo from '~/components/AppLogo.vue'
 export default {
   components: {
     AppLogo
-  }
+  },
+
+  data: () => ({
+    options: {
+      licenseKey: 'YOUR_KEY_HERE',
+      controlArrows: true,
+      scrollBar: false
+    },
+  })
 }
 </script>
 

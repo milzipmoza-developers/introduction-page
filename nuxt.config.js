@@ -3,11 +3,11 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'milzipmoza-developers-introduction',
+    title: 'Welcome to Milzipmoza-Developers',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'for github page' }
+      { hid: 'description', name: 'description', content: 'Milzipmoza-Developers Introduction Page' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -16,10 +16,15 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
-  loading: { color: '#3B8070' },
+  loading: { color: '#000000' },
   /*
   ** Build configuration
   */
+
+  modules: [
+    'nuxt-fullpage.js',
+  ],
+
   build: {
     /*
     ** Run ESLint on save
@@ -30,7 +35,7 @@ module.exports = {
           enforce: 'pre',
           test: /\.(js|vue)$/,
           loader: 'eslint-loader',
-          exclude: /(node_modules)/
+          exclude: /(node_modules)/,
         })
       }
     }
