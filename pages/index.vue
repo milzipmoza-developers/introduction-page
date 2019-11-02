@@ -8,10 +8,10 @@
 </template>
 
 <script>
-import WelcomeSection from "./WelcomeSection";
-import IntroductionSection from "./IntroductionSection";
-import ProjectSection from "./ProjectSection";
-import ContributorSection from "./ContributorSection"
+import WelcomeSection from "../components/sections/WelcomeSection";
+import IntroductionSection from "../components/sections/IntroductionSection";
+import ProjectSection from "../components/sections/ProjectSection";
+import ContributorSection from "../components/sections/ContributorSection"
 
 export default {
   components: {

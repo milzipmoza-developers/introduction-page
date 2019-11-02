@@ -23,7 +23,7 @@
 </template>
 
 <script>
-  import ProjectCard from "../components/ProjectCard"
+  import ProjectCard from "../ProjectCard"
 
   export default {
     name: 'Production',

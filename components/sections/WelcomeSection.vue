@@ -2,7 +2,7 @@
   <div class="section">
     <div class="welcome-container">
       <div class="logo-layout">
-        <img id="main-logo" class="main-logo main-logo-anim" src="../static/logo_transparent_bg.png"/>
+        <img id="main-logo" class="main-logo main-logo-anim" src="../../static/logo_transparent_bg.png"/>
       </div>
       <div class="title-layout">
         <div class="main-title">
