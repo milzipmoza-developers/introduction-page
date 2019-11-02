@@ -135,6 +135,28 @@
   }
 
   @media ( max-width: 767px ) {
+    .logo-layout > .main-logo {
+      width: 250px;
+      margin-top: 10vh;
+      margin-bottom: 10vh;
+    }
+
+
+    .title-layout > .main-title {
+      font-family: 'Do Hyeon', sans-serif !important;
+      font-size: 42px;
+      letter-spacing: 5px;
+      text-align: center;
+      color: #ffffff !important;
+    }
+
+    .title-layout > .sub-title {
+      font-family: 'Do Hyeon', sans-serif !important;
+      font-size: 20px;
+      text-align: center;
+      color: #ffffff !important;
+    }
+
     .icon-github-anim {
       color: #2EFE2E !important;
     }

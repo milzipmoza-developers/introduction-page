@@ -16,16 +16,20 @@
         <div class="card-description">
           <span v-for="(line, i) in contentLines" v-bind:key="i">{{ line }}<br></span>
         </div>
-        <div>
-          <icon-button
-            :href="githubHref"
-            icon="fab fa-github"
-            color="#FFFFFF"
-          ></icon-button>
-          <image-button
-            v-if="useImgBtn"
-            :href="imgBtnHref"
-          ></image-button>
+        <div style="vertical-align: center">
+          <div class="btn-group">
+            <icon-button
+              class="icon-btn"
+              :href="githubHref"
+              icon="fab fa-github"
+              color="#FFFFFF"
+            ></icon-button>
+            <image-button
+              class="img-btn"
+              v-if="useImgBtn"
+              :href="imgBtnHref"
+            ></image-button>
+          </div>
           <v-btn
             class="card-btn"
             text
@@ -87,6 +91,11 @@
 
 <style scoped>
   /* card */
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
   .project-card {
     background-color: black !important;
     border: 1px solid white !important;
@@ -124,6 +133,10 @@
     padding-bottom: 12px;
   }
 
+  .btn-group {
+    float: left;
+  }
+
   .card-btn {
     background-color: white;
     margin-right: 4px;
@@ -138,5 +151,48 @@
 
   .card-text {
     padding-bottom: 16px;
+  }
+
+  @media ( max-width: 1125px ) {
+    .card-logo {
+      margin: 16px;
+      width: 120px;
+      height: 120px;
+    }
+  }
+
+  @media ( max-width: 1023px ) {
+    .card-title {
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      padding-bottom: 12px;
+    }
+  }
+
+  @media ( max-width: 877px ) {
+    .card-logo {
+      margin: 12px;
+      width: 100px;
+      height: 100px;
+    }
+
+    .btn-group {
+      float: right;
+    }
+
+    .card-btn {
+      background-color: white;
+      margin-right: 8px;
+      float: right;
+    }
+  }
+
+  @media ( max-width: 767px ) {
+
+  }
+
+  @media ( max-width: 591px ) {
+
   }
 </style>
