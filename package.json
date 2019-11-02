@@ -13,9 +13,12 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
     "@nuxtjs/vuetify": "^1.9.0",
     "nuxt": "^2.0.0",
-    "nuxt-fullpage.js": "0.0.3"
+    "nuxt-fullpage.js": "0.0.3",
+    "vue": "^2.6.10",
+    "vuetify": "^2.1.9"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
