@@ -12,7 +12,10 @@ module.exports = {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Do+Hyeon&display=swap'},
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap'}
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap'},
+      { rel: 'stylesheet', href: 'https://unpkg.com/fullpage.js/dist/fullpage.extensions.min.css'}
+    ],
+    script: [
     ]
   },
   /*
@@ -22,7 +25,6 @@ module.exports = {
   /*
   ** Build configuration
   */
-
   buildModules: [
     'nuxt-fullpage.js',
     ['@nuxtjs/vuetify', {
