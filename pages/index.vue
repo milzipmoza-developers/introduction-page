@@ -1,39 +1,39 @@
 <template>
-  <full-page :options="options">
-    <project-section/>
+  <full-page :options="options" ref="fullpage">
     <welcome-section/>
+    <introduction-section/>
+    <project-section/>
     <contributor-section/>
-    <footer-section/>
   </full-page>
 </template>
 
 <script>
 import WelcomeSection from "./WelcomeSection";
+import IntroductionSection from "./IntroductionSection";
 import ProjectSection from "./ProjectSection";
 import ContributorSection from "./ContributorSection"
-import FooterSection from "./FooterSection";
 
 export default {
   components: {
     WelcomeSection,
+    IntroductionSection,
     ProjectSection,
     ContributorSection,
-    FooterSection
   },
 
   data: () => ({
     options: {
-      licenseKey: 'YOUR_KEY_HERE',
+      licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
       controlArrows: true,
       menu: "#menu",
-      anchors: ["Welcome", "Product", "Contributor", "Footer"],
-      sectionsColor: ["#000000", "#000000", "#FFFFFF","#FFFFFF"],
+      anchors: ["Welcome", "Introduction", "Product", "Contributor", "Footer"],
+      sectionsColor: ["#000000", "#000000", "#000000", "#FFFFFF","#FFFFFF"],
       lockAnchors: true,
       scrollBar: false,
       fitToSection: true,
       navigation: true,
       navigationPosition: 'right',
-      navigationTooltips: ["Welcome", "Product", "Contributor", "Footer"],
+      navigationTooltips: ["Welcome", "Introduction", "Product", "Contributor", "Footer"],
     },
   }),
 
