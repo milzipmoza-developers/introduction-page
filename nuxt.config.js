@@ -10,7 +10,8 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Milzipmoza-Developers Introduction Page' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Do+Hyeon&display=swap'}
     ]
   },
   /*
@@ -21,8 +22,13 @@ module.exports = {
   ** Build configuration
   */
 
-  modules: [
+  buildModules: [
     'nuxt-fullpage.js',
+    ['@nuxtjs/vuetify', {
+        defaultAssets: {
+          icons: 'fa'
+        }
+    }]
   ],
 
   build: {
