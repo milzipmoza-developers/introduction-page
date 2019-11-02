@@ -2,7 +2,7 @@
   <div class="section">
     <div class="welcome-container">
       <div class="logo-layout">
-        <img id="main-logo" class="main-logo" src="../static/main_logo.png" @onmouseover="mainLogoMouseOver"/>
+        <img id="main-logo" class="main-logo main-logo-anim" src="../static/logo_transparent_bg.png"/>
       </div>
       <div class="title-layout">
         <div class="main-title">
@@ -12,12 +12,19 @@
           Milzipmoza Developers
         </div>
       </div>
-      <div class="button-layout">
-        <!-- 깃헙, 유튜브, 페이스북 페이지, 인스타그램 -->
-        <v-icon class="icon-button" color="#FFFFFF" large>fab fa-github</v-icon>
-        <v-icon class="icon-button" color="#FFFFFF" large>fab fa-youtube</v-icon>
-        <v-icon class="icon-button" color="#FFFFFF" large>fab fa-facebook</v-icon>
-        <v-icon class="icon-button" color="#FFFFFF" large>fab fa-instagram</v-icon>
+      <div class="btn-layout">
+        <a class="wrapper" href="https://github.com/milzipmoza-developers">
+          <v-icon class="icon-btn icon-btn-anim icon-github-anim" color="#FFFFFF" large>fab fa-github</v-icon>
+        </a>
+        <a class="wrapper" href="https://www.youtube.com/channel/UCipvQqo32UmHkAAwhn-MfbQ">
+          <v-icon class="icon-btn icon-btn-anim icon-youtube-anim" color="#FFFFFF" large>fab fa-youtube</v-icon>
+        </a>
+        <a class="wrapper" href="https://www.facebook.com/MilzipmozaDevelopers">
+          <v-icon class="icon-btn icon-btn-anim icon-facebook-anim" color="#FFFFFF" large>fab fa-facebook</v-icon>
+        </a>
+        <a class="wrapper" href="https://instagram/thedevluffy">
+          <v-icon class="icon-btn icon-btn-anim icon-instagram-anim" color="#FFFFFF" large>fab fa-instagram</v-icon>
+        </a>
       </div>
     </div>
   </div>
@@ -27,17 +34,6 @@
 
   export default {
     name: 'Welcome',
-
-    data: () => ({
-      dd: 1
-    }),
-
-    methods: {
-      mainLogoMouseOver: function () {
-        const mainLogo = document.getElementById("main-logo")
-        console.log('dd')
-      }
-    }
   }
 </script>
 
@@ -55,7 +51,9 @@
   }
 
   .logo-layout > .main-logo {
-    width: 50%;
+    width: 350px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
   }
 
   .title-layout {
@@ -77,23 +75,83 @@
     color: #ffffff !important;
   }
 
-  .button-layout {
+  .btn-layout {
     margin-top: 50px;
     float: left;
     width: 100%;
     text-align: center;
   }
 
-  .button-layout > .icon-button {
-    padding: 16px;
+  .btn-layout > .wrapper {
+    text-decoration: none;
+    margin: 16px;
+  }
+
+  .icon-btn-anim:hover {
+    padding-right: 12px;
+    padding-left: 12px;
+    font-size: 48px !important;
+  }
+
+  .icon-github-anim:hover {
+    color: #2EFE2E !important;
+  }
+
+  .icon-youtube-anim:hover {
+    color: #FE2E2E !important;
+  }
+
+  .icon-facebook-anim:hover {
+    color: #2E64FE !important;
+  }
+
+  .icon-instagram-anim:hover {
+    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   @media ( max-width: 1023px ) {
+    .logo-layout > .main-logo {
+      width: 300px;
+      margin-top: 10vh;
+      margin-bottom: 10vh;
+    }
 
+    .title-layout > .main-title {
+      font-family: 'Do Hyeon', sans-serif !important;
+      font-size: 52px;
+      letter-spacing: 5px;
+      text-align: center;
+      color: #ffffff !important;
+    }
+
+    .title-layout > .sub-title {
+      font-family: 'Do Hyeon', sans-serif !important;
+      font-size: 24px;
+      text-align: center;
+      color: #ffffff !important;
+    }
   }
 
   @media ( max-width: 767px ) {
+    .icon-github-anim {
+      color: #2EFE2E !important;
+    }
 
+    .icon-youtube-anim {
+      color: #FE2E2E !important;
+    }
+
+    .icon-facebook-anim {
+      color: #2E64FE !important;
+    }
+
+    .icon-instagram-anim {
+      background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
   }
 </style>
 
