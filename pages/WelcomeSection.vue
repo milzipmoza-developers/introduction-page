@@ -141,7 +141,6 @@
       margin-bottom: 10vh;
     }
 
-
     .title-layout > .main-title {
       font-family: 'Do Hyeon', sans-serif !important;
       font-size: 42px;
