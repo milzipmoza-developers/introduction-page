@@ -11,7 +11,8 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Do+Hyeon&display=swap'}
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Do+Hyeon&display=swap'},
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap'}
     ]
   },
   /*
