@@ -172,7 +172,7 @@
 
   @media ( max-width: 877px ) {
     .card-logo {
-      margin: 12px;
+      margin: 0px 8px 8px 0px;
       width: 100px;
       height: 100px;
     }
