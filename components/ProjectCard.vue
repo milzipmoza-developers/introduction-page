@@ -50,12 +50,6 @@
       logoOutLine: {
         type: Boolean
       },
-      width: {
-        type: String
-      },
-      height: {
-        type: String
-      },
       logoSrc: {
         type: String
       },
@@ -78,6 +72,11 @@
         type: String,
       }
     },
+
+    data: () => ({
+      width: "150px",
+      height: "150px"
+    }),
 
     components: {
       IconButton,
