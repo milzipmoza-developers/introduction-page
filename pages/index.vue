@@ -1,8 +1,7 @@
 <template>
   <full-page :options="options">
+    <project-section/>
     <welcome-section/>
-    <introduction-section/>
-    <product-section/>
     <contributor-section/>
     <footer-section/>
   </full-page>
@@ -10,16 +9,14 @@
 
 <script>
 import WelcomeSection from "./WelcomeSection";
-import IntroductionSection from "./IntroductionSection";
-import ProductSection from "./ProductSection";
+import ProjectSection from "./ProjectSection";
 import ContributorSection from "./ContributorSection"
 import FooterSection from "./FooterSection";
 
 export default {
   components: {
     WelcomeSection,
-    IntroductionSection,
-    ProductSection,
+    ProjectSection,
     ContributorSection,
     FooterSection
   },
@@ -29,15 +26,14 @@ export default {
       licenseKey: 'YOUR_KEY_HERE',
       controlArrows: true,
       menu: "#menu",
-      anchors: ["Welcome", "Intro", "Product", "Contributor", "Footer"],
-      sectionsColor: ["#FFFFFF", "#FFFFFF", "#FFFFFF","#FFFFFF", "#FFFFFF"],
+      anchors: ["Welcome", "Product", "Contributor", "Footer"],
+      sectionsColor: ["#000000", "#000000", "#FFFFFF","#FFFFFF"],
       lockAnchors: true,
       scrollBar: false,
-      scrollOverflow: true,
       fitToSection: true,
       navigation: true,
       navigationPosition: 'right',
-      navigationTooltips: ["Welcome", "Intro", "Product", "Contributor", "Footer"],
+      navigationTooltips: ["Welcome", "Product", "Contributor", "Footer"],
     },
   }),
 
