@@ -2,7 +2,7 @@
   <div class="section">
     <div class="contributor-container">
       <div class="contributor-title">
-        Introduction
+        Members
       </div>
       <div style="color: white">
         준비중...
