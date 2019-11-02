@@ -6,7 +6,10 @@
 
 <script>
   export default {
-    name: "CommingSoon.vue"
+    name: "CommingSoon.vue",
+    beforeCreate() {
+      console.log('디벨로핑 메리호 건조 30% 진행중...')
+    }
   }
 </script>
 
