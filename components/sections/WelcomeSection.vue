@@ -13,16 +13,16 @@
         </div>
       </div>
       <div class="btn-layout">
-        <a class="wrapper" href="https://github.com/milzipmoza-developers">
+        <a class="wrapper" target="_blank" rel="noopener noreferrer" href="https://github.com/milzipmoza-developers">
           <v-icon class="icon-btn icon-btn-anim icon-github-anim" color="#FFFFFF" large>fab fa-github</v-icon>
         </a>
-        <a class="wrapper" href="https://www.youtube.com/channel/UCipvQqo32UmHkAAwhn-MfbQ">
+        <a class="wrapper" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCipvQqo32UmHkAAwhn-MfbQ">
           <v-icon class="icon-btn icon-btn-anim icon-youtube-anim" color="#FFFFFF" large>fab fa-youtube</v-icon>
         </a>
-        <a class="wrapper" href="https://www.facebook.com/MilzipmozaDevelopers">
+        <a class="wrapper" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/MilzipmozaDevelopers">
           <v-icon class="icon-btn icon-btn-anim icon-facebook-anim" color="#FFFFFF" large>fab fa-facebook</v-icon>
         </a>
-        <a class="wrapper" href="https://instagram.com/thedevluffy">
+        <a class="wrapper" target="_blank" rel="noopener noreferrer" href="https://instagram.com/thedevluffy">
           <v-icon class="icon-btn icon-btn-anim icon-instagram-anim" color="#FFFFFF" large>fab fa-instagram</v-icon>
         </a>
       </div>

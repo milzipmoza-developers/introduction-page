@@ -1,5 +1,5 @@
 <template>
-  <a class="wrapper" :href="href">
+  <a class="wrapper" target="_blank" rel="noopener noreferrer" :href="href">
     <img class="img-icon" src="../static/tecobrary_white_logo.png" alt="github-btn">
   </a>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <a class="wrapper" :href="href">
+  <a class="wrapper" target="_blank" rel="noopener noreferrer" :href="href">
     <v-icon class="icon-btn" :color="color" large>{{ icon }}</v-icon>
   </a>
 </template>
