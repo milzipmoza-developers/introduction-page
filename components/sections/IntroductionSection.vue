@@ -1,7 +1,7 @@
 <template>
   <div class="section">
-    <div class="contributor-container">
-      <div class="contributor-title">
+    <div class="introduction-container">
+      <div class="introduction-title">
         Introduction
       </div>
       <div style="color: white">
@@ -20,8 +20,7 @@
 </script>
 
 <style>
-  .contributor-container {
-    margin-top: 40px;
+  .introduction-container {
     background-color: black;
     height: 100%;
     width: auto;
@@ -30,16 +29,16 @@
     padding-left: 20vw !important;
   }
 
-  .contributor-title {
+  .introduction-title {
     margin-bottom: 24px;
-    font-size: 70px;
+    font-size: 64px;
     color: white;
-    font-family: 'Do Hyeon', sans-serif !important;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
   }
 
   @media ( max-width: 1488px ) {
-    .contributor-container {
-      margin-top: 30px;
+    .introduction-container {
       background-color: black;
       height: 100%;
       width: auto;
@@ -50,8 +49,7 @@
   }
 
   @media ( max-width: 1279px ) {
-    .contributor-container {
-      margin-top: 20px;
+    .introduction-container {
       background-color: black;
       height: 100%;
       width: auto;
@@ -62,8 +60,7 @@
   }
 
   @media ( max-width: 1023px ) {
-    .contributor-container {
-      margin-top: 20px;
+    .introduction-container {
       background-color: black;
       height: 100%;
       width: auto;
@@ -72,11 +69,10 @@
       padding-left: 7vw !important;
     }
 
-    .contributor-title {
+    .introduction-title {
       margin-bottom: 24px;
       font-size: 50px;
       color: white;
-      font-family: 'Do Hyeon', sans-serif !important;
     }
   }
 

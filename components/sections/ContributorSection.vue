@@ -20,7 +20,6 @@
 
 <style>
   .contributor-container {
-    margin-top: 40px;
     background-color: black;
     height: 100%;
     width: auto;
@@ -31,14 +30,14 @@
 
   .contributor-title {
     margin-bottom: 24px;
-    font-size: 70px;
+    font-size: 64px;
     color: white;
-    font-family: 'Do Hyeon', sans-serif !important;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
   }
 
   @media ( max-width: 1488px ) {
     .contributor-container {
-      margin-top: 30px;
       background-color: black;
       height: 100%;
       width: auto;
@@ -50,7 +49,6 @@
 
   @media ( max-width: 1279px ) {
     .contributor-container {
-      margin-top: 20px;
       background-color: black;
       height: 100%;
       width: auto;
@@ -62,7 +60,6 @@
 
   @media ( max-width: 1023px ) {
     .contributor-container {
-      margin-top: 20px;
       background-color: black;
       height: 100%;
       width: auto;
@@ -75,7 +72,6 @@
       margin-bottom: 24px;
       font-size: 50px;
       color: white;
-      font-family: 'Do Hyeon', sans-serif !important;
     }
   }
 
