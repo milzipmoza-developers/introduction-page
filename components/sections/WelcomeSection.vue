@@ -22,7 +22,7 @@
         <a class="wrapper" href="https://www.facebook.com/MilzipmozaDevelopers">
           <v-icon class="icon-btn icon-btn-anim icon-facebook-anim" color="#FFFFFF" large>fab fa-facebook</v-icon>
         </a>
-        <a class="wrapper" href="https://instagram/thedevluffy">
+        <a class="wrapper" href="https://instagram.com/thedevluffy">
           <v-icon class="icon-btn icon-btn-anim icon-instagram-anim" color="#FFFFFF" large>fab fa-instagram</v-icon>
         </a>
       </div>
