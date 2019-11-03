@@ -8,7 +8,8 @@
   export default {
     name: "CommingSoon.vue",
     beforeCreate() {
-      console.log('디벨로핑 메리호 건조 30% 진행중...')
+      console.log('디벨로핑 메리호 건조중')
+      console.log('[■■■☐☐☐☐☐☐☐] 30%')
     }
   }
 </script>
