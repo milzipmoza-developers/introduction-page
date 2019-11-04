@@ -1,7 +1,7 @@
 <template>
   <div class="section fp-auto-height">
     <div class="footer-container">
-
+      밀짚모자개발단
     </div>
   </div>
 </template>
@@ -18,6 +18,6 @@
 <style>
   .footer-container {
     height: 200px;
-    background-color: black;
+    background-color: white;
   }
 </style>
