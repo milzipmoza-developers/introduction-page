@@ -23,7 +23,7 @@
     background-color: black;
     height: 100%;
     width: auto;
-    padding: 36px;
+    padding: 3vh;
     padding-right: 20vw !important;
     padding-left: 20vw !important;
   }
