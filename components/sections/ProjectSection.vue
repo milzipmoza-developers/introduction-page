@@ -43,7 +43,7 @@
           githubHref: 'https://github.com/milzipmoza-developers/tecobrary-wiki/wiki',
           useImgBtn: true,
           imgBtnHref: 'https://dgh7qtsxun9z8.cloudfront.net/',
-          descPage: '/common/commingsoon'
+          descPage: '/projects/tecobrary'
         },
         {
           title: '테코비스 (TECORVIS)',
@@ -72,7 +72,7 @@
     background-color: black;
     height: 100%;
     width: auto;
-    padding: 36px;
+    padding: 3vh;
     padding-right: 20vw !important;
     padding-left: 20vw !important;
   }
