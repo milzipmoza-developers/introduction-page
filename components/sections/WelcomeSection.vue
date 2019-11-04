@@ -42,7 +42,7 @@
     background-color: black;
     height: 100%;
     width: auto;
-    padding-top: 10vh;
+    padding-top: 7vh;
   }
 
   .logo-layout {
@@ -106,9 +106,14 @@
   }
 
   .icon-instagram-anim:hover {
-    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    background: rgb(254,211,115);
+    background: -moz-linear-gradient(135deg, rgba(254,211,115,1) 4%, rgba(241,82,69,1) 30%, rgba(217,46,127,1) 62%, rgba(155,54,183,1) 85%, rgba(81,94,207,1) 100%);
+    background: -webkit-linear-gradient(135deg, rgba(254,211,115,1) 4%, rgba(241,82,69,1) 30%, rgba(217,46,127,1) 62%, rgba(155,54,183,1) 85%, rgba(81,94,207,1) 100%);
+    background: linear-gradient(135deg, rgba(254,211,115,1) 4%, rgba(241,82,69,1) 30%, rgba(217,46,127,1) 62%, rgba(155,54,183,1) 85%, rgba(81,94,207,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    -moz-background-clip: inherit;
+    -moz-text-decoration-style: solid;
   }
 
   @media ( max-width: 1023px ) {
@@ -169,9 +174,14 @@
     }
 
     .icon-instagram-anim {
-      background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      background: -webkit-radial-gradient(circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+      background: -moz-radial-gradient(circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+      background: -o-radial-gradient(circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+      background: radial-gradient(circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+      /*-webkit-background-clip: text;*/
+      /*-moz-background-clip: text;*/
+      /*-moz-background-clip: text;*/
+      /*-webkit-text-fill-color: transparent;*/
     }
   }
 </style>
