@@ -33,7 +33,7 @@
         menu: "#menu",
         anchors: ["Welcome", "Introduction", "Product", "Contributor", "Footer"],
         sectionsColor: ["#000000", "#000000", "#000000", "#000000", "#FFFFFF"],
-        lockAnchors: true,
+        lockAnchors: false,
         scrollBar: false,
         fitToSection: true,
         navigation: true,
