@@ -19,7 +19,7 @@
     "nuxt-fullpage.js": "0.0.3",
     "vue": "^2.6.10",
     "vue-fullpage.js": "^0.1.4",
-    "vuetify": "^2.1.9"
+    "vuetify": "^2.6.10"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
