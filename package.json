@@ -15,7 +15,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2",
     "@nuxtjs/vuetify": "^1.9.0",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.15.8",
     "nuxt-fullpage.js": "0.0.3",
     "vue": "^2.6.10",
     "vue-fullpage.js": "^0.1.4",
